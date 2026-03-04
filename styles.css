@@ -661,6 +661,33 @@ h1, h2, h3, h4 {
   font-size: 0.82rem;
 }
 
+/* --- Utility Modifiers --- */
+.intro-text {
+  max-width: 720px;
+  margin: 16px auto 0;
+  color: var(--color-text-light);
+  font-size: 1.05rem;
+}
+
+.mt-md {
+  margin-top: 28px;
+}
+
+.card-grid--spaced {
+  margin-top: 32px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info-box--spaced {
+  margin-top: 24px;
+}
+
 /* --- Responsive --- */
 @media (max-width: 900px) {
   .two-col,
